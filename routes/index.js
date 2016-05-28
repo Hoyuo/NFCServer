@@ -14,7 +14,7 @@ db.once('open', function callback() {
 });
 
 
-var NFCSchema = mongoose.schema({
+var NFCSchema = mongoose.Schema({
     code: 'string'
 });
 
