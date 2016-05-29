@@ -40,6 +40,13 @@ router.post('/fileupload', function (req, res, next) {
         if (err) {
         }
     });
+
+    res.write('OK');
+    res.end();
+});
+
+router.get('/NFC', function (req, rex, next) {
+
 });
 
 
